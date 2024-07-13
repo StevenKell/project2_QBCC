@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Celestial Data Lab</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,8 +22,8 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Courses</a>
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#courses-section">Courses</a>
+              <a class="nav-link" href="#pricing-section">Pricing</a>
             </div>
             <div class="nav-title">Celestial Data Lab</div>
 
@@ -75,7 +75,6 @@
 
 
 <div class="section one" id="courses-section">
-    section 1
   </div>
   <table class="table table-dark">
     
@@ -84,27 +83,26 @@
         <td><!-- Button trigger modal -->
             <div><img src="images/graphRcourse.png" class="img-pre" alt="..."></div>
             
+            
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">
+                           Add to cart </button>
             <div>Building GIS Graph Networks with R</div>
             <div>Instructor led</div>
             <div>$5000</div>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">
-                           View course </button>
-            
             <!-- Modal -->
             <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
-              <div class="modal-dialog">
+              <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="Modal1Label">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="Modal1Label">Building GIS Graph Networks with R</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <img src="images/graphRcourse.png" class="rounded float-start mod-img" alt="...">
-
+Consectetur elit. Nunc fermentum mauris, eget elementum mi mauris ullamcorper justo. Aenean lobortis ante et aliquam sollicitudin. Etiam purus purus, volutpat nec condimentum vitae, hendrerit vel libero. Ut ultrices hendrerit ornare. Duis sit amet massa felis. Integer imperdiet felis ac mi hendrerit, non dapibus velit condimentum. Mauris vel turpis quam. Praesent iaculis augue nec nisl posuere tincidunt. Nulla tempus sem et sem dictum dapibus. Maecenas a lectus eu nunc commodo auctor eu et nisl.
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue browsing</button>
                   </div>
                 </div>
               </div>
@@ -112,45 +110,51 @@
         <td><!-- Button trigger modal -->
             <div><img src="images/spectralRcourse.png" class="img-pre" alt="..."></div>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal2">
-                View course            </button>
-            
+                Add to cart            </button>
+                <div>Processing Spectral Data With R</div>
+                <div>Instructor led</div>
+                <div>$3000</div>
             <!-- Modal -->
             <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2Label" aria-hidden="true">
-              <div class="modal-dialog">
+              <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="Modal2Label">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="Modal2Label">Processing Spectral Data With R</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <img src="images/spectralRcourse.png" class="rounded float-start mod-img" alt="...">
+                    Consectetur elit. Nunc fermentum mauris, eget elementum mi mauris ullamcorper justo. Aenean lobortis ante et aliquam sollicitudin. Etiam purus purus, volutpat nec condimentum vitae, hendrerit vel libero. Ut ultrices hendrerit ornare. Duis sit amet massa felis. Integer imperdiet felis ac mi hendrerit, non dapibus velit condimentum. Mauris vel turpis quam. Praesent iaculis augue nec nisl posuere tincidunt. Nulla tempus sem et sem dictum dapibus. Maecenas a lectus eu nunc commodo auctor eu et nisl.
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue browsing</button>
                   </div>
                 </div>
               </div>
             </div></td>
         <td><!-- Button trigger modal -->
             <div><img src="images/gravityRcourse.png" class="img-pre" alt="..."></div>
+            
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal3">
-                View course            </button>
+                Add to cart            </button>
+                <div>Determining Suitability For Microgravity With R</div>
+                <div>Instructor led</div>
+                <div>$3500</div>
             
             <!-- Modal -->
             <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3Label" aria-hidden="true">
-              <div class="modal-dialog">
+              <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="Modal3Label">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="Modal3Label">Determining Suitability For Microgravity With R</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <img src="images/spectralRcourse.png" class="rounded float-start mod-img" alt="...">
+                    <img src="images/gravityRcourse.png" class="rounded float-start mod-img" alt="...">
+                    Consectetur elit. Nunc fermentum mauris, eget elementum mi mauris ullamcorper justo. Aenean lobortis ante et aliquam sollicitudin. Etiam purus purus, volutpat nec condimentum vitae, hendrerit vel libero. Ut ultrices hendrerit ornare. Duis sit amet massa felis. Integer imperdiet felis ac mi hendrerit, non dapibus velit condimentum. Mauris vel turpis quam. Praesent iaculis augue nec nisl posuere tincidunt. Nulla tempus sem et sem dictum dapibus. Maecenas a lectus eu nunc commodo auctor eu et nisl.
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue browsing</button>
                   </div>
                 </div>
               </div>
@@ -160,22 +164,24 @@
         <td><!-- Button trigger modal -->
             <div><img src="images/gravityWavesRcourse.png" class="img-pre" alt="..."></div>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal4">
-                View course            </button>
-            
+                Add to cart            </button>
+                <div>Detecting Perturbations in Gravitational Waves With R</div>
+                <div>Instructor led</div>
+                <div>$1500</div>
             <!-- Modal -->
             <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="Modal4Label" aria-hidden="true">
-              <div class="modal-dialog">
+              <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="Modal4Label">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="Modal4Label">Detecting Perturbations in Gravitational Waves With R</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <img src="images/gravityWavesRcourse.png" class="rounded float-start mod-img" alt="...">
+                    Consectetur elit. Nunc fermentum mauris, eget elementum mi mauris ullamcorper justo. Aenean lobortis ante et aliquam sollicitudin. Etiam purus purus, volutpat nec condimentum vitae, hendrerit vel libero. Ut ultrices hendrerit ornare. Duis sit amet massa felis. Integer imperdiet felis ac mi hendrerit, non dapibus velit condimentum. Mauris vel turpis quam. Praesent iaculis augue nec nisl posuere tincidunt. Nulla tempus sem et sem dictum dapibus. Maecenas a lectus eu nunc commodo auctor eu et nisl.
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue browsing</button>
                   </div>
                 </div>
               </div>
@@ -183,22 +189,24 @@
         <td><!-- Button trigger modal -->
             <div><img src="images/DSPRcourse.png" class="img-pre" alt="..."></div>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                View course            </button>
-            
+                Add to cart            </button>
+                <div>Digital Signal Processing With R</div>
+                <div>Instructor led</div>
+                <div>$2500</div>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
+              <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Digital Signal Processing With R</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
                     <img src="images/DSPRcourse.png" class="rounded float-start mod-img" alt="...">
+                   <div><p class="modal-text"> Using R for digital signal processing (DSP) offers numerous benefits due to its powerful statistical and graphical capabilities. R provides a wide array of packages specifically designed for DSP tasks, such as signal processing, and time-series analysis.</p></div>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue browsing</button>
                   </div>
                 </div>
               </div>
@@ -206,22 +214,25 @@
         <td><!-- Button trigger modal -->
             <div><img src="images/orbitRcourse (1).png" class="img-pre" alt="..."></div>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal6">
-                View course            </button>
-            
+                Add to Cart            </button>
+                <div>Orbital Mechanics With R</div>
+                <div>Instructor led</div>
+                <div>$3500</div>
             <!-- Modal -->
             <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="Modal6Label" aria-hidden="true">
-              <div class="modal-dialog">
+              <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="Modal6Label">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="Modal6Label">Orbital Mechanics With R</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <img src="images/orbitRcourse (1).png" class="rounded float-start mod-img" alt="...">
+                    <img src="images/orbitRcourse (1).png" class="rounded float-start mod-img" alt="...">Consectetur elit. Nunc fermentum mauris, eget elementum mi mauris ullamcorper justo. Aenean lobortis ante et aliquam sollicitudin. Etiam purus purus, volutpat nec condimentum vitae, hendrerit vel libero. Ut ultrices hendrerit ornare. Duis sit amet massa felis. Integer imperdiet felis ac mi hendrerit, non dapibus velit condimentum. Mauris vel turpis quam. Praesent iaculis augue nec nisl posuere tincidunt. Nulla tempus sem et sem dictum dapibus. Maecenas a lectus eu nunc commodo auctor eu et nisl.
+
+
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue browsing</button>
                   </div>
                 </div>
               </div>
@@ -234,7 +245,7 @@
 
 
   <div class="section two" id="pricing-section">
-    section 2
+    Courses can be purchased individually, and through personal or enterprise subsrciptions.
   </div>
 
 
@@ -242,7 +253,95 @@
 
 </main>
     <footer>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+   
+    <!-- Left -->
 
+    <!-- Right -->
+    
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Celestial Data Lab
+          </h6>
+          <p>
+            Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Social Media
+          </h6>
+          
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          
+          <p>
+            <a href="https://www.linkedin.com/in/steven-kell/" class="text-reset">LinkedIn</a>
+          </p>
+          <p>
+            <a href="https://mastodon.social/@useR_conf" class="text-reset">Mastodon</a>
+          </p>
+          <p>
+            <a href="https://bsky.app/profile/user-conf.bsky.social" class="text-reset">BlueSky</a>
+          </p>
+          <p>
+            <a href="https://x.com/_useRconf" class="text-reset">X</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            steventkell@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 850 296 7470</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+   
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
     </footer>
 
 
